@@ -8,6 +8,8 @@
 
 #include <cstddef>
 #include <cstdint>
+#include <stdio.h>
+#include <stdlib.h>
 
 int    calcBrightness(uint8_t *buf, uint64_t buf_sz, int bytes_per_pixel, int stride);
 double lerp(double x, double a, double b);
